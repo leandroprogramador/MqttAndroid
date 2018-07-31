@@ -21,12 +21,12 @@ import org.eclipse.paho.client.mqttv3.MqttPersistenceException;
 public class MqttHelper {
 
     private MqttAndroidClient mqttAndroidClient;
-    private final String serverUri = "tcp://200.143.181.48:1883";
-    String clientId = "daniel_saraiva";
-    String pass = "123456";
+    private final String serverUri = "tcp://-";
+    String clientId = "-";
+    String pass = "-";
     boolean push = false;
-    final String subscriptionTopic = "ath/desire/luz/mesa";
-    final String publishTopic = "ath/desire/luz/mesa";
+    final String subscriptionTopic = "-";
+    final String publishTopic = "-";
     IConnectionInterface iConnectionInterface;
 
     int qtdChamada = 0;
